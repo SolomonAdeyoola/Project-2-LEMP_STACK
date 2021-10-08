@@ -7,7 +7,7 @@
 
 #### Step 0 – Spun-off EC2 Linux Ubuntu Server and Applied basic configurations
 
-Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl_p1_lamp. Created security group with relevant ports opened and also created and saved my private key to be used for SSH into the EC2 instance.
+Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl_p2_lemp. Created security group with relevant ports opened and also created and saved my private key to be used for SSH into the EC2 instance.
 
 ![EC2 Machine](./images/EC2_instance.PNG)
 *EC2 Instance Linux Ubuntu Server 20.04 1 CPU 8G Storage*
