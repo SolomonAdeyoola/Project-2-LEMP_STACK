@@ -12,8 +12,23 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 ![EC2 Machine](./images/EC2_instance.PNG)
 *EC2 Instance Linux Ubuntu Server 20.04 1 CPU 8G Storage*
 
-### Step 1 – Spun-off EC2 Linux Ubuntu Server and Applied basic configurations
 
 ![EC2 Machine](./images/SSH_into_EC2_Server.PNG)
 
 *SSH into EC2 Server*
+
+### Step 1: Installing the Nginx Web Server
+
+`sudo apt update`
+
+`sudo apt install nginx`
+
+`sudo systemctl status nginx`
+
+![NGINX Installed](./images/install_nginx.PNG)
+
+
+![NGINX Installed](./images/NGINX_server_running.PNG)
+
+*NGINX installation & validation*
+
