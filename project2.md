@@ -15,4 +15,5 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 ### Step 1 – Spun-off EC2 Linux Ubuntu Server and Applied basic configurations
 
 ![EC2 Machine](./images/SSH_into_EC2_Server.PNG)
+
 *SSH into EC2 Server*
