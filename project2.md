@@ -32,3 +32,16 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 *NGINX installation & validation*
 
+### Step 2: Installing MySQL Server
+
+MySQl server is installed, validated and password set
+
+`sudo apt install mysql-server`
+
+`sudo mysql_secure_installation`
+
+![MySQL Installed](./images/mysql_installed.PNG)
+
+*NGINX installation & validation*
+
+### Step 3: Installing PHP
