@@ -59,6 +59,8 @@ MySQl server is installed, validated and password set
 
 `sudo mkdir /var/www/projectLEMP`
 
+`#open a new configuration file in Nginx’s sites-available directory using nano editor`
+
 `#/etc/nginx/sites-available/projectLEMP`
 
 `server {`
