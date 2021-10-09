@@ -106,3 +106,10 @@ open webpage in web browser
 ![php active](./images/php_active.PNG)
 
 *php active & verified*
+
+### Step 6: Retrieving data from MySQL database with PHP
+
+![php active](./images/mysql_user&access.PNG)
+
+*mysql user & access creation*
+
