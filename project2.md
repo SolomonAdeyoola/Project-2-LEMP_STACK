@@ -45,3 +45,47 @@ MySQl server is installed, validated and password set
 *NGINX installation & validation*
 
 ### Step 3: Installing PHP
+
+`sudo apt install php-fpm php-mysql`
+
+![PHP Installed](./images/php_installed.PNG)
+
+*PHP installation*
+
+### Step 4 — Configuring Nginx to Use PHP Processor
+
+`#Creating virtual hosts `
+`Create the root web directory for your_domain as follows:`
+
+`sudo mkdir /var/www/projectLEMP`
+
+`#/etc/nginx/sites-available/projectLEMP`
+
+`server {`
+`   listen 80;`
+`   server_name projectLEMP www.projectLEMP;`
+`   root /var/www/projectLEMP;`
+
+`   index index.html index.htm index.php;`
+
+`   location / {`
+`       try_files $uri $uri/ =404;`
+`   }`
+
+`   location ~ \.php$ {`
+`       include snippets/fastcgi-php.conf;`
+`       fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;`
+`    }`
+
+`   location ~ /\.ht {`
+`       deny all;`
+`   }`
+
+`}`
+
+![virtualhost_created](./images/Virtualhost_created.PNG)
+![virtualhost_created](./images/Virtualhost_webpage.PNG)
+
+*virtualhost created & verified*
+
+
