@@ -113,3 +113,7 @@ open webpage in web browser
 
 *mysql user & access creation*
 
+
+![lemp_database creation](./images/lemp_stack_database.PNG)
+
+*lemp_stack database population*
