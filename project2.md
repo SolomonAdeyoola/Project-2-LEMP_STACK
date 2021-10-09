@@ -90,4 +90,18 @@ MySQl server is installed, validated and password set
 
 *virtualhost created & verified*
 
+### Step 5 – testing php with nginx
 
+`#testing to validate that Nginx can correctly hand .php files off to your PHP processor`
+
+`sudo nano /var/www/projectLEMP/info.php`
+
+`#write this valid php code into info.php`
+`   <?php`
+`   phpinfo();`
+
+open webpage in web browser
+    `#http://3.144.19.192/info.php`
+
+![php active](./images/php_active.PNG)
+*php active & verified*
