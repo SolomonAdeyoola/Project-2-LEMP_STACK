@@ -118,7 +118,8 @@ open webpage in web browser
 
 *lemp_stack database population*
 
-create todo_list.php and populate it as below
+create todo_list.php and populate it as below:
+
 `nano /var/www/projectLEMP/todo_list.php`
 
 `<?php`
@@ -149,3 +150,4 @@ create todo_list.php and populate it as below
    ` die();`
 `}`
 
+# Project 2 completed!
