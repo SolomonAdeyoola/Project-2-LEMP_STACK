@@ -1,2 +1,1 @@
-# Project-2-LEMP_STACK
-Project 2
+# This sets up LEMP stack environment
