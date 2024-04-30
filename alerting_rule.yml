@@ -9,3 +9,4 @@ groups:
         annotations:
           summary: server(s) are down.
           description: This is a test alerting rule
+        # edited on tise pc from branch tise-2
