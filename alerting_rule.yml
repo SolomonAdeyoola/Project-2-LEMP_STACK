@@ -10,3 +10,4 @@ groups:
           summary: server(s) are down.
           description: This is a test alerting rule
         # added comment on tise branch to alerting_rule file
+        # edited on tise pc from branch tise-2
